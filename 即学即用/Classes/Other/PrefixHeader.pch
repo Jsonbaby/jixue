@@ -1,0 +1,30 @@
+//
+//  PrefixHeader.pch
+//  即学即用
+//
+//  Created by Apple on 16/4/5.
+//  Copyright © 2016年 8lei. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "UIView+TWExtension.h"
+#import "UIBarButtonItem+TWExtension.h"
+#define TWLog(...)
+#ifdef DEBUG
+#define TTLog(...) NSLog(__VA_ARGS__)
+#else
+#define TTLog(...)
+#endif
+
+#define TWLogFunc TWLog(@"%s", __func__)
+
+#define TWRGBColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+#define TWGlobalBg TWRGBColor(223, 223, 223)
+#define TWScreenW [UIScreen mainScreen].bounds.size.width
+#define TWScreenH [UIScreen mainScreen].bounds.size.height
+#endif /* PrefixHeader_pch */

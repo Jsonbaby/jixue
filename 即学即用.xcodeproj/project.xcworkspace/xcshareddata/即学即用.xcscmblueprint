@@ -1,0 +1,24 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "96261489-6a56-9040-a2a0-603abfa228a1" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "96261489-6a56-9040-a2a0-603abfa228a1" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "36AD3CBD-52A6-4552-AD9B-CB31D90755F4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "96261489-6a56-9040-a2a0-603abfa228a1" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "即学即用",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "即学即用.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/192.168.253.1\/svn\/tw",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "96261489-6a56-9040-a2a0-603abfa228a1"
+    }
+  ]
+}
